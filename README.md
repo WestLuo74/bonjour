@@ -1,11 +1,8 @@
 # bonjour
-
 A Bonjour/Zeroconf protocol implementation in pure JavaScript. Publish
 services on the local network or discover existing services using
 multicast DNS.
-
-[![Build status](https://travis-ci.org/watson/bonjour.svg?branch=master)](https://travis-ci.org/watson/bonjour)
-[![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
+This project is forked from watson/bonjour，change _serviceMap value to service object; when service property changed, remove it and add it again.
 
 ## Installation
 
