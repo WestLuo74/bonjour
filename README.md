@@ -7,13 +7,13 @@ This project is forked from watson/bonjour，change _serviceMap value to service
 ## Installation
 
 ```
-npm install bonjour
+npm install bonjour_srv
 ```
 
 ## Usage
 
 ```js
-var bonjour = require('bonjour')()
+var bonjour = require('bonjour_srv')()
 
 // advertise an HTTP server on port 3000
 bonjour.publish({ name: 'My Web Server', type: 'http', port: 3000 })
